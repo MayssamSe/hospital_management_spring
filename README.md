@@ -142,11 +142,11 @@ Initialement, la base de données était en mémoire via **H2**. Elle a été mi
 ### 1. Consulter tous les patients
 
 ![Liste des patients](images/patients.PNG)
-(images/patients2.PNG)
+![Suite liste des patients](images/patients2.PNG)
 
 ### 2. Ajouter un patient
 
-![Ajout d'un patient](images/addpatient.PNG)
+![Ajout d'un patient](images/addpatients.PNG)
 
 ### 3. Consulter un patient par ID
 
@@ -158,7 +158,7 @@ Initialement, la base de données était en mémoire via **H2**. Elle a été mi
 
 ### 5. Mettre à jour un patient
 
-![Mise à jour patient](images/updatepatient.pPNG)
+![Mise à jour patient](images/updatepatient.PNG)
 
 ### 6. Supprimer un patient
 
