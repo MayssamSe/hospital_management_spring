@@ -28,7 +28,7 @@ public class HospitalApplication {
 							MedecinRepository medecinRepository, RendezVousRepository rendezVousRepository,
 							ConsultationRepository consultationRepository) {
 		return args -> {
-			Stream.of("Mohamed", "Hassan", "Najat")
+			Stream.of("Rania", "Samira", "Mehdi")
 					.forEach(name -> {
 						Patient patient = new Patient();
 						patient.setNom(name);
@@ -36,7 +36,7 @@ public class HospitalApplication {
 						patient.setMalade(false);
 						hospitalService.savePatient(patient);
 					});
-			Stream.of("Yassmine", "Amin", "Nour")
+			Stream.of("Amine", "Khadija", "Mayssam")
 					.forEach(name -> {
 						Medecin medecin = new Medecin();
 						medecin.setNom(name);
@@ -49,10 +49,10 @@ public class HospitalApplication {
 			Patient patient = patientRepository.findById(1L).orElse(null);
 
 			// Recherche d'un patient par nom
-			Patient patient1 = patientRepository.findByNom("Mohamed");
+			Patient patient1 = patientRepository.findByNom("Rania");
 
 			// Recherche d'un médecin par nom
-			Medecin medecin = medecinRepository.findByNom("Yassmine");
+			Medecin medecin = medecinRepository.findByNom("Amine");
 
 			// Création d'un nouveau rendez-vous
 			RendezVous rendezVous = new RendezVous();
